@@ -23,8 +23,8 @@ var commentRoutes       = require("./routes/comments"),
 //seed the database
 // seedDB(); 
 
-
-mongoose.connect(process.env.DATABASEURL);
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp";
+mongoose.connect(url);
 //mongoose.connect("mongodb://emilian:emilian17@ds161102.mlab.com:61102/yelpcamp");
 
 
