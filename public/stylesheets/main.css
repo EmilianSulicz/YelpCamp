@@ -32,6 +32,7 @@ h2 {
     top: 200px;
     left: 0;
     width: 100%;
+    transition: all .2s linear;
 }
 h2 span {
     color: white;
@@ -41,4 +42,7 @@ h2 span {
     background: rgba(0, 0, 0, 0.5);
     padding: 10px;
     text-transform: uppercase;
+}
+.thumbnailCamp:hover > h2 {
+    top: 170px;
 }
