@@ -48,6 +48,6 @@ h2 span {
 .thumbnailCamp:hover > h2 {
     top: 110px;
 }
-.row {
+#centered {
     text-align: center
 }
